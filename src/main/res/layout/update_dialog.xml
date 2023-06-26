@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="#3408F6FF">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundcornerlisupdate"
+        android:text="Update Detail"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/roundcorner"
+
+        >
+        <EditText
+            android:id="@+id/edNameUpdate"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="5"
+            android:inputType="text"
+            android:hint="Enter Name"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundcorner" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/roundcorner"
+
+
+        >
+
+        <EditText
+            android:id="@+id/edPasswordUpdate"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="5"
+            android:inputType="text"
+            android:hint="Enter Pasword"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundcorner" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundcornerlisupdate"
+        android:text="UPDATE DATA"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>
